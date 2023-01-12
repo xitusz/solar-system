@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(80deg, #152479, black);
+  color: whitesmoke;
+}
+
+.header {
+  background-color: rgb(31, 29, 29);
+  padding: 10px;
+  text-align: center;
+}
+
+.title {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.planets {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.planet-card {
+  margin: 20px;
+  text-align: center;
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  width: 90%;
+}
+
+.mission-card {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  color: rgb(31, 29, 29);
+  font-weight: 600;
+  line-height: 40px;
+  margin: 10px 0;
+  padding: 15px 0;
+  text-align: center;
+  width: 400px;
+}
+
+.mission-card:hover {
+  box-shadow: rgb(31, 29, 29);
+  font-size: large;
+}
